@@ -60,7 +60,7 @@ provisioner:
           - "\\.dpkg-(tmp|new|old|dist)$"
           - "\\.rpm(save|new)$"
           - "\\.pod$"
-        host_name: {{ grains['host'] }}
+        host_name: "{{ grains['host'] }}"
         allow:
           - ^127\.0\.0\.1$
           - ^::1$
