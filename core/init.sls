@@ -7,3 +7,4 @@ include:
   - munin.node.config
   - .nfs
   - .packages
+  - .schedules

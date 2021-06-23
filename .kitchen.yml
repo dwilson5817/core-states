@@ -44,6 +44,7 @@ provisioner:
         "*":
           - core
     core.sls:
+      testing: true
       munin_node:
         log_level: 4
         log_file: /var/log/munin/munin-node.log
