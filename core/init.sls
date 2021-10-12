@@ -8,3 +8,4 @@ include:
   - .nfs
   - .packages
   - .schedules
+  - .shell
