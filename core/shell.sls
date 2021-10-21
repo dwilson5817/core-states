@@ -29,6 +29,6 @@ install_oh-my-zsh:
     - runas: dylan
     - shell: /usr/bin/zsh
     - args: --unattended
-    - creates: ~/.zshrc
+    - creates: /home/dylan/.oh-my-zsh
     - require:
       - user: user_dylan
